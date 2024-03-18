@@ -98,7 +98,7 @@ string k_suba(string x, string y){
 }
 int main(){
     string s1,s2;
-    getline(cin, s1);
-    getline(cin, s2);
+    s1="12";
+    s2="2";
     cout<<k_suba(s1,s2)<<endl;
 }
