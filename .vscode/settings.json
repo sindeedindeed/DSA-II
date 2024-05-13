@@ -1,4 +1,8 @@
 {
-    "C_Cpp.errorSquiggles": "enabled",
-    "C_Cpp.default.compilerPath": "C:/MSYS2/ucrt64/bin/g++.exe"
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.default.compilerPath": "C:/MSYS2/ucrt64/bin/g++.exe",
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/maish/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/themes/synthwave-x-fluoromachine.css",
+        "file:///C:/Users/maish/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/themes/epic-80s-transitions.css"
+        ]
 }
