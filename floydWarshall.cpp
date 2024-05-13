@@ -6,7 +6,7 @@ const int INF=1e9; // declaring infinity as 1 billion
 void printMatrix(int matrix[][nV]){
     for(int i=0;i<nV;i++){
         for(int j=0;j<nV;j++){
-            if(matrix[i][j]==INF)
+            if(matrix[i][j]==INF) 
                 cout<<"INFINITY ";
             else
                 cout<<matrix[i][j]<<" ";
@@ -20,7 +20,7 @@ void floydWarshall(int graph[][nV]){
     
     for(i=0;i<nV;i++)
         for(j=0;j<nV;j++)
-            matrix[i][j]=graph[i][j]; 
+            matrix[i][j]=graph[i][j];   
 
     for(k=0;k<nV;k++){
         for(i=0;i<nV;i++){
