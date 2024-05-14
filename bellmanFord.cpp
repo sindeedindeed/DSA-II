@@ -4,7 +4,7 @@ const int INF = 1e9;
 
 int main() {
     int n, m;
-    cin >> n >> m; // Corrected input statement
+    cin >> n >> m;
     vector<vector<int>> edges;
     for (int i = 0; i < m; i++) {
         int u, v, w;
