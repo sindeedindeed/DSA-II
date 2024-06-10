@@ -32,16 +32,11 @@ void dfs_2(int x) {
 }
 
 void Kosaraju() {
-    // Step 1: Perform DFS and push finished vertices onto stack
     for (int i = 0; i < n; i++) {
         if (!visited[i]) dfs_1(i);
     }
-
-    // Step 2: Reset visited array
     fill(visited, visited + n, false);
-
-    // Step 3: Process all vertices in order defined by stack
-    int compNum = 1; // Start component numbering from 1
+    int compNum = 1;
     while (!S.empty()) {
         int v = S.top();
         S.pop();
@@ -62,8 +57,6 @@ int main() {
         g[a].adj.push_back(b);
         g[b].rev_adj.push_back(a);
     }
-
     Kosaraju();
-
     return 0;
 }
